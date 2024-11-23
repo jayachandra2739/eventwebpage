@@ -7,7 +7,7 @@ body, h1, h2, p, ul, li {
 
 
 body {
-  color: #333;
+  color: #f8f8f8;
   line-height: 1.6;
   background-color: #f4f4f9; 
   overflow-x: hidden;
@@ -26,7 +26,7 @@ body {
   
 
   z-index: -1; 
-  filter: brightness(70%); 
+  filter: brightness(80%); 
 }
 
 
@@ -55,11 +55,11 @@ body {
   max-width: 800px;
   background: white;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: white;
 }
 
 .details h2 {
-  color: #4CAF50;
+  color: #33d238;
   text-align: center;
   margin-bottom: 20px;
 }
@@ -67,6 +67,7 @@ body {
 .details ul {
   list-style: none;
   padding: 0;
+  color: black;
 }
 
 .details li {
@@ -99,6 +100,7 @@ body {
 .registration p {
   font-size: 1.1rem;
   margin-bottom: 20px;
+  color: black;
 }
 
 .register-button {
@@ -115,3 +117,10 @@ body {
 .register-button:hover {
   background-color: #45a049;
 }
+
+
+
+
+ 
+ 
+ 
